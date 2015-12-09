@@ -1600,7 +1600,11 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container {
+<<<<<<< HEAD
     width: 1200px;
+=======
+    width: 1170px;
+>>>>>>> origin/master
   }
 }
 .container-fluid {
@@ -3991,6 +3995,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
+<<<<<<< HEAD
+=======
+  background-color: #eee;
+>>>>>>> origin/master
 }
 .nav > li.disabled > a {
   color: #777;
@@ -4713,8 +4721,13 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination {
   display: inline-block;
   padding-left: 0;
+<<<<<<< HEAD
   margin: 20px 0;
   border-radius: 4px;
+=======
+  //margin: 20px 0;
+  //border-radius: 4px;
+>>>>>>> origin/master
 }
 .pagination > li {
   display: inline;
@@ -4724,6 +4737,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   position: relative;
   float: left;
   padding: 6px 12px;
+<<<<<<< HEAD
   margin-left: -1px;
   line-height: 1.42857143;
   color: #337ab7;
@@ -4741,6 +4755,35 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > li:last-child > span {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
+=======
+ // margin-left: -1px;
+  line-height: 1.42857143;
+  //color: #337ab7;
+  color:#1a1a1a;
+  font-family: "proxima_nova_rgregular";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+//background-color: #fff;
+ // border: 1px solid #ddd;
+}
+.pagination > li:first-child > a, .pagination > li:first-child > span {
+  //border-bottom-left-radius: 4px;
+  //border-top-left-radius: 4px;
+  //margin-left: 0;
+margin:0 15px;
+ border-radius: 10px;
+
+}
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+  //border-top-right-radius: 4px;
+  //border-bottom-right-radius: 4px;
+     border: 1px solid #e3e3e3;
+	 margin:0 15px;
+	  border-radius: 10px;
+>>>>>>> origin/master
 }
 .pagination > li > a:hover,
 .pagination > li > span:hover,
@@ -4760,8 +4803,18 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   z-index: 3;
   color: #fff;
   cursor: default;
+<<<<<<< HEAD
   background-color: #337ab7;
   border-color: #337ab7;
+=======
+  background-color: #28affa;
+  border-color: #28affa;
+  border-radius:10px;
+  font-family: "proxima_novasemibold";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+>>>>>>> origin/master
 }
 .pagination > .disabled > span,
 .pagination > .disabled > span:hover,
